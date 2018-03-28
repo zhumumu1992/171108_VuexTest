@@ -8,7 +8,7 @@ Vue.use(Vuex)
 
 // 相当于data对象
 const state = {
-  count: 1
+  count: 2
 }
 
 /*
