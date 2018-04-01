@@ -23,10 +23,6 @@
       this.$store.dispatch('readTodos')
     },
 
-
-
-
-
     components: {
       'todos-header': Header,
       List,
