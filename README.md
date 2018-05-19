@@ -52,6 +52,8 @@
 			return ...
 		}
 	}
+  
+  有个坑：在组件里的computed调用getters时，必须要在template里建个标签绑定下值，才能达到state里的数据修改并全局更新，否则不绑定是不行的。
 ## 5). modules
 	包含多个module
 	一个module是一个store的配置对象
